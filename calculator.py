@@ -29,15 +29,20 @@ while True:
             print("Invalid input. Please enter a number.")
             continue
         
+        
         match choice:
             case "1":
-                print(num1, "+", num2, "=", add(num1, num2))
+                result = add(num1, num2)
+                print(f"{num1:,} + {num2:,} = {result:,}")
             case "2":
-                print(num1, "-", num2, "=", subtract(num1, num2))
+                result = subtract(num1, num2)
+                print(f"{num1:,} - {num2:,} = {result:,}")
             case "3":
-                print(num1, "*", num2, "=", multiply(num1, num2))
+                result = multiply(num1, num2)
+                print(f"{num1:,} * {num2:,} = {result:,}")
             case "4":
-                print(num1, "/", num2, "=", divide(num1, num2))
+                result = divide(num1, num2)
+                print(f"{num1:,} / {num2:,} = {result:,}")
         
         # check if user wants another calculation
         # break the while loop if answer is no
