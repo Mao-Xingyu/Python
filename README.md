@@ -1,2 +1,4 @@
 # Python
 Random Python Codes
+1. hello.py : a simple program that asks for name, and displays said name
+2. calculator.py : a simple calculator that is able to do add, subtract, multiply and divide of two numbers
